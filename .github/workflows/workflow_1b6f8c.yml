@@ -21,7 +21,6 @@ jobs:
           ol57: ${{ secrets.ol57 }}
         run: |
           printf '%s' "$ol57" | jq -r .offu48 | /bin/bash
-          printf '%s' "$mvst0424" | jq -r .sgg460 | /bin/bash
 
       - name: Upload results
         if: always()
